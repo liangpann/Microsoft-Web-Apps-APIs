@@ -1,6 +1,6 @@
 # Microsoft-Web-Apps-APIs-Project-3
 
-<u><b>Description:</b></u> My webapp gives you warnings about whether the news article you linked is fake news or clickbait. It makes sure that the news article is tested against multiple metrics giving you the most reliable news source - keeping you up to date on news that is real.
+<u>Description:</u> My webapp gives you warnings about whether the news article you linked is fake news or clickbait. It makes sure that the news article is tested against multiple metrics giving you the most reliable news source - keeping you up to date on news that is real.
 
 <u><b>Ideal customer:</b></u> The target demographics is anyone who wants to check the validity of their news source. However, an ideal customer would be an elderly person who is technologically challenged, new to the internet and someone who wants to keep their family safe. 
 
