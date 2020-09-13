@@ -16,8 +16,8 @@
                <div id="title">
                   Please insert a valid news article URL
                </div>
-               <form method="post">
-                  <input id="input" type="text" name="video" autocomplete="off" autofocus>
+               <form method="post" name="myForm">
+                  <input id="input" type="text" name="link" autocomplete="off" autofocus>
                </form>
                <br>
 
@@ -25,13 +25,12 @@
                 Please insert the news article TITLE
                </div>
 
-               <form method="post">
-                <input id="input" type="text" name="video" autocomplete="off" autofocus>
+               <form method="post" name="myForm1">
+                <input id="input" type="text" name="title" autocomplete="off" autofocus>
                </form>
 
                <br>
-
-               <input id="submit" type="submit" value="Test">
+               <input onclick="myFunction()" id="submit" type="submit" value="Test">
              
                <!-- <div id="progress">
                   <span>initialize</span> <i class="fa fa-cog fa-spin"></i>
@@ -43,6 +42,7 @@
                </div> -->
             </div>
          </div>
+         <p id="demo"></p>
          <br>
 
          <div id="separator"></div>
