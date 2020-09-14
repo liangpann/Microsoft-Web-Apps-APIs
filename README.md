@@ -25,7 +25,7 @@ The user first inputs the news article link and title and presses the Test butto
 
 The webapp clasifies the news article as being reliable or not and displays the result on the webapp.
 
-<b>Future scalability</b> 
+<b>Future Scalability</b> 
 
 I truly believe that there is a need for this webapp with plenty of opportunites to expand. Apart from finding more metrics to improve the classification of news articles as being reliable or not, there are opportunities to add more features such as providing better sourced articles on the same topic or implementing the webapp as a Google Chrome Extension or creating a Native App version. The Google Chrome Extension would be able to provide live warnings on Facebook, Twitter and Instagram and block out potentially misleading articles/news.
 
