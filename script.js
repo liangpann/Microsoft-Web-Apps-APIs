@@ -17,7 +17,7 @@ const verifyPost = async (title, link) => {
 
     if (response.ok) {
         let data = await response.json();
-        console.log('did Got a bad response from the server:');
+        console.log('Did not get a bad response from the server:');
         return data;
     } else {
         console.log('Got a bad response from the server:');
@@ -28,26 +28,35 @@ const verifyPost = async (title, link) => {
 }
 
 const searchForArticles = async (title, link) => {
-    console.log("hello");
     let verified = await verifyPost(title, link);
-    
-    
 
+    if (verified == null) {
+        console.log('Could not verify post');
+        return false;
+    } else {
+        return true;
+    }
+    
 }
 
 function myFunction() {
     var link = document.forms["myForm"]["link"].value;
     var title = document.forms["myForm1"]["title"].value;
     if (link == "" || title == "") {
-        alert("forms must be filled out");
+        alert("Forms must be filled out");
         return false;
     } else {
-        document.getElementById("demo").innerHTML = "Input OK";
-        searchForArticles(title, link);
+        document.getElementById("demo").innerHTML = "WARNING, unreliable source";
+        var result = searchForArticles(title, link);
+        if (result == false) {
+            document.getElementById("demo").innerHTML = "WARNING, unreliable source";
+        } if (result == true) {
+            document.getElementById("demo").innerHTML = "RELIABLE source";
+        } 
 
     }
     
-  }
+}
 
 
 
