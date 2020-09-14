@@ -4,11 +4,11 @@
 
 My webapp gives you warnings about whether the news article you linked is fake news or clickbait. It makes sure that the news article is tested against multiple metrics giving you the most reliable news source - keeping you up to date on news that is real.
 
-<b>Ideal customer</b> 
+<b>Ideal Customer</b> 
 
 The target demographics is anyone who wants to check the validity of their news source. However, an ideal customer would be an elderly person who is technologically challenged, new to the internet and someone who wants to keep their family safe. 
 
-<b>Persona's current situation/problem</b> 
+<b>Persona's Current Situation/Problem</b> 
 
 As an example, there is an 86 year old person named Dave. Dave is technologically challenged, new to the internet and has children and grandchildren who he cares dearly about. After browsing online, Dave stumbles upon a number of news articles that may impact the health and safety of his family, but is not sure whether the news articles are real or not. By using the webapp that I have developed, Dave will be more confident in the news articles he has read and will be able to share it to my friends/family with no repercussions.
 
